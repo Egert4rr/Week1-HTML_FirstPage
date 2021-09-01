@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genki' Page</title>
+    <style>
+        hr {          
+            overflow: visible; /* For IE */
+            padding: 0;
+            border: none;
+            border-top: medium double #333;
+            color: #333;
+            text-align: center;
+        }            
+        hr:after {
+            content: "§";
+            display: inline-block;
+            position: relative;
+            top: -0.7em;
+            font-size: 1.5em;
+            padding: 0 0.25em;
+            background: white;
+            }
+        
+    </style>
 </head>
 <body>
     <h3>Hello Genki!</h3>
@@ -13,6 +33,7 @@
     <p>I &#9829 games and the act of taking lives</p>
 
     <hr>
+
     <h2>my favorite IT subject</h2>
     <!--ul - unordered list-->
 
@@ -21,7 +42,9 @@
         <li>Robotics</li>
         <li>Programming</li>
     </ul>
+
     <hr>
+
     <h2>My hobbies</h2>
     <!--ol - ordered list-->
     <ol>
@@ -30,6 +53,7 @@
         <li>Sleeping</li>
     </ol>
     <a href="Hobbies.html" target="_blank">Visit my hobbies Page</a>
+
     <hr>
 
     <h2>Technical skills</h2>
